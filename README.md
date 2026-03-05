@@ -1,2 +1,7 @@
 # Document-Retrival-System-using-RAG
 This project aims to design and implement a Document Retrieval System using RAG, showcasing how combining dense retrieval techniques with generative models can deliver intelligent, context-aware, and concise responses to user queries.
+
+
+In the age of exponential information growth, effective document retrieval has become essential for knowledge-based systems. This project presents a Document Retrieval System using Retrieval-Augmented Generation (RAG), an advanced architecture that combines traditional retrieval mechanisms with the generative power of transformer-based language models. RAG enhances the retrieval process by dynamically integrating external documents into the response generation pipeline, allowing the system to produce more accurate and contextually relevant answers.
+The system first retrieves relevant passages from a pre-indexed document corpus using vector similarity search (e.g., FAISS or Elasticsearch). These retrieved documents are then passed to a generative language model (like BERT or GPT) that synthesizes the final output based on both the input query and the retrieved content. This hybrid approach ensures factual accuracy while maintaining the flexibility of generative models.
+The solution is particularly effective for question answering, summarization, and knowledge base augmentation. It demonstrates improved performance over traditional retrieval or generation-only models, offering a scalable and intelligent document access system suitable for enterprise, academic, and personal use.
